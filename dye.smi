@@ -1,0 +1,16 @@
+[H]N([H])C1=CC2=C(C=C1)N=C1C=CC(C=C1S2)=[N+](C)C
+[H]N(C)C1=CC2=C(C=C1)N=C1C=CC(C=C1S2)=[N+](C)C
+[H]N([H])C1=CC2=C(C=C1)N=C1C=C\C(C=C1S2)=[N+](/[H])C
+[H]N([H])C1=CC2=C(C=C1C)N=C1C=CC(C=C1O2)=[N+](CC)CC
+CN(C)C1=CC2=C(C=C1C)N=C1C(O2)=CC(=[NH2+])C2=CC=CC=C12
+CN(C)C1=CC2=C(N=C3C(C)=CC(C=C3S2)=[N+](C)C)C(C)=C1
+CN(C)C1=CC2=C(C=C1)[NH+]=C1C(=CC(=O)C(O)=C1O2)C(O)=O
+[O-]S(=O)(=O)C1=CC=C2N\C(C(=O)C2=C1)=C1\NC2=CC=C(C=C2C1=O)S([O-])(=O)=O
+[O-]S(=O)(=O)C1=CC(=C2N\C(C(=O)C2=C1)=C1\NC2=C(C=C(C=C2C1=O)S([O-])(=O)=O)S([O-])(=O)=O)S([O-])(=O)=O
+CN(C)C1=CC2=C(C=C1)N=C1C=CC(C=C1S2)=[N+](C)C
+CN(C)C1=CC2=C(C=C1)N=C1C=CC(C(=C1S2)[N@H]([O-])=O)=[N+](C)C
+[H]C1=C([H])C2=NC3=C(C([H])=C([H])C([H])=C3[H])[N+](=C2C([H])=C1[H])C([H])([H])[H]
+[H]N([H])C1=CC2=C(C=C1)N=C1C=CC(C=C1S2)=[N+]([H])[H]
+[H]N([H])C1=CC2=C(C=C1C)N=C1C=CC(C=C1S2)=[N+](C)C
+CC1=CC(N=C2C=CC(C=C2)=[N+](C)C)=C(N)C=C1N
+
