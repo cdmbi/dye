@@ -385,7 +385,7 @@ plot_importance <- function(x) {
 }
 
 save_pdf <- function(x) {
-
+  
 }
 
 pdf("sampleGraph", width = 5, height = 10)
@@ -404,6 +404,8 @@ h <- plot_importance(GraphOnly_FingerPrinter)
 i <- plot_importance(KlekotaRoth_FingerprintCount)
 j <- plot_importance(KlekotaRoth_FingerPrinter)
 k <- plot_importance(MACCS_FingerPrinter)
+l <- plot_importance(Pubchem_FingerPrinter)
+
 
 
 Extended_finterPrinter <- read_file("extended_finger_printer.csv")
