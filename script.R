@@ -1,4 +1,4 @@
-setwd("C:/Users/Saw/Downloads/dye")
+#setwd("C:/Users/Saw/Downloads/dye")
 #### function for reading file
 read_file <- function(x){
   library(caret)
@@ -53,10 +53,11 @@ RF_training_classification <- function(x) {
   ok <- foreach(i = 1:100 ) %dopar% {
     
     data <- x
-    trainIndex <- caret::createDataPartition(data$Activity, p = .8,
-                                             list = FALSE, times = 1)
-    train <- data[trainIndex, ]
-    test <- data[-trainIndex, ]
+    #trainIndex <- caret::createDataPartition(data$Activity, p = .8,
+    #                                         list = FALSE, times = 1)
+    #train <- data[trainIndex, ]
+    #test <- data[-trainIndex, ]
+    train <- data
     model_train <- ranger::ranger(Activity~., data = train, write.forest = TRUE, save.memory = TRUE)
     rm(ctrl)
     rm(rf)
